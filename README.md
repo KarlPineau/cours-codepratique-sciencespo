@@ -4,7 +4,7 @@
 - Contact : karl.pineau@utc.fr
 
 ## Plan du cours :
-### Matin : créons notre site web
+### Créons notre site web
 - Choix d'un thème de découverte :
     - La mission Dakar - Djibouti (culture, ethnographie)
     - Un sujet de politique internationale
@@ -15,11 +15,13 @@
 - Mettons en forme
 - Animons
 - Mettre en ligne
-### Après-midi : la partie plus théorique
+### La partie plus théorique
 - Théorie du web
     - Différence entre le web et internet
     - http / https
     - URL, URI
+### À vous de jouer
+- Créez votre CV
 
 
 ## Introduction
@@ -60,3 +62,36 @@ dans l'URL les fichiers et dossiers qui composent l'arborescence du site dans la
 on utilise le protocole `http:`
     
 Nous travaillerons à mettre votre site web en ligne plus tard :)
+
+#### Qu'est-ce que le HTML ?
+Le HTML est un **langage de programmation**. C'est un acronyme qui signifie *HyperText Markup Language*, autrement dit un 
+langage permettant de marquer de l'hypertexte.
+
+#### Qu'est-ce que de l'hypertexte ?
+L'hypertexte est la notion centrale du Web inventé à la fin des années 80 par Tim Berners-Lee. L'hypertexte est une notion
+qui préexiste au Web, mais que le web exploite dans toute sa puissance.
+
+C'est tout simplement l'idée de placer un lien dans une zone de texte à l'intérieur d'un document amenant à un autre document.
+
+![Les liens hypertexte, source Wikimédia](https://upload.wikimedia.org/wikipedia/commons/4/41/Sistema_hipertextual.jpg)
+
+Depuis l'invention du HTML, on lui a trouvé de nombreux autres objets sémantiques représentables : des titres, des paragraphes,
+des images, des tableaux. On exprime donc en HTML bien plus de choses que seulement des liens.
+
+#### Matérialiser le HTML : la notion de balise
+Pour indiquer au navigateur parcourant votre fichier HTML où se trouvent les éléments signifiants (par exemple un titre),
+on utilise une ou plusieurs balises qui vont venir encadrer le texte que vous souhaitez marquer.
+
+**Revenez à votre fichier bonjour.html**
+1. Complétons un peu le fichier pour commencer. Sautez une ligne et inscrivez *"What's up?"*
+2. Sauvegardez votre fichier, retournez sur votre navigateur et raffraichissez votre page. Votre site a évolué :)
+
+À présent, ajoutons une première brique HTML à notre fichier :
+1. Sur la première ligne, qui contient *"Hello, World!"*, ajoutez la balise `<h1>` devant votre phrase et la balise `</h1>` 
+derrière.
+2. Vous obtenez le code suivant :
+
+    `<h1>Hello, World!</h1>
+    What's up?`
+
+3. Sauvegardez votre fichier, retournez sur votre navigateur et raffraichissez votre page.
