@@ -91,7 +91,7 @@ on utilise une ou plusieurs balises qui vont venir encadrer le texte que vous so
 derrière.
 2. Vous obtenez le code suivant :
 
-    `<h1>Hello, World!</h1>
-    What's up?`
+    <h1>Hello, World!</h1>
+    What's up?
 
 3. Sauvegardez votre fichier, retournez sur votre navigateur et raffraichissez votre page.
