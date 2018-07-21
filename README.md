@@ -91,7 +91,60 @@ on utilise une ou plusieurs balises qui vont venir encadrer le texte que vous so
 derrière.
 2. Vous obtenez le code suivant :
 
-    <h1>Hello, World!</h1>
-    What's up?
+    `<h1>Hello, World!</h1>`    
+    `What's up?`
 
 3. Sauvegardez votre fichier, retournez sur votre navigateur et raffraichissez votre page.
+
+Vous constatez que votre ligne *"Hello, World!"* est devenue nettement plus visible. C'est normal, votre navigateur vient 
+d'interpréter votre code.
+
+#### Comprendre ce qu'il vient de se passer :
+- La balise `h1` est utilisée en HTML pour indiquer un titre de premier niveau (c'est l'abréviation de *heading 1*). 
+Le titre de premier niveau est le titre principale d'un document ;
+- On a donc placé deux balises, une balise **ouvrante** (`<h1>`) qui indique où commence notre titre et une balise 
+**fermante** (`</h1>`) qui indique où s'arrête notre titre ;
+- Chaque balise commence par un symbole **<** (chevron ouvrant, strictement plus petit que) et se finit par un symbole **>** 
+(chevron fermant, strictement plus grand que) ;
+- Le texte à l'intérieur de la balise indique le type de la balise : `<h1>` est une balise `h1`, `<p>` est une balise `p`
+- La balise **fermante** possède un slash **/** juste après le chevron ouvrant ;
+- Les **balises fonctionnent toujours par couple** (ou presque, on verra ça plus loin). Vous ne pouvez pas écrire une 
+balise `<h1>` et ne pas écrire sa balise `</h1>` ensuite
+    - Faisons le test : **supprimez la balise `</h1>`** de votre fichier **bonjour.html** ;
+    - Sauvegardez votre fichier, retournez sur votre navigateur et raffraichissez votre page ;
+    - Le navigateur doit interpréter tout votre texte comme étant le titre.
+    - Sur certains navigateur (comme Firefox), si vous faites un clic droit sur votre page puis "Afficher le code source",
+    le navigateur vous affiche en rouge les balises non correctes.
+    - Remettons notre balise `</h1>` en place.
+- Il est **très important** de comprendre que; si votre navigateur a modifié le style (l'apparence visuelle) de votre titre
+lorsque vous lui avez indiqué qu'il s'agissait d'un titre, **vous ne lui avez pour autant indiqué aucune consigne d'ordre visuel**.
+L'action de pose de la balise `<h1>` est une action **sémantique**. Vous avez donné du sens à votre texte. Votre navigateur 
+en a déduit seul une apparence visuelle. 
+    
+### Installons un vrai logiciel :
+Vous vous en renderez vite compte, une page HTML peut vite comporter beaucoup de balises HTML. Et votre éditeur de texte 
+n'est pas vraiment adapté. Il ne vous signale ni les erreurs, ni ne met en valeur les balises dans votre page. Installons 
+donc un logiciel dédié à cela.
+
+Il existe plusieurs types de logiciel :
+- Les logiciels dédiés à de la gestion de projets complexes, pour développer des logiciels ou des sites web complexes.
+On les appelle *IDE* pour *Environnement de développement intégré*. Ces logiciels sont Eclipse, NetBeans ou encore phpStorm.
+- Mais c'est un peu gros pour notre usage, nous allons donc nous tourner vers un logiciel plus léger. Vous pouvez donc 
+installer au choix :
+    - (sur Windows) [Notepad++](https://notepad-plus-plus.org/), le logiciel historique des développeurs, simple et efficace ;
+    - (sur Windows, Linux & Mac) [Sublime Text](https://www.sublimetext.com/), le logiciel à la mode, toujours aussi simple mais avec
+    beaucoup d'extensions possibles
+    - (sur Windows, Linux & Mac) [Atom](https://atom.io/), idem : simple et efficace, mais plus orienté en mode projet
+    
+**Nous allons utiliser Atom.io pour l'exemple**
+- Téléchargez le logiciel et installez-le.
+- Lancez le logiciel
+- Nous allons activer pour commencer quelques extensions bien utiles. Rendez-vous dans les préférences du 
+logiciel, section "Installer", recherchez et installez les paquets suivants :
+    - **Base Linter** : pour détecter les erreurs dans notre code ;
+    - **Linter-htmlhint** : pour détecter les erreurs spécifiquement en HTML ;
+    - **autoclose-html** : pour fermer automatiquement nos balises ;
+    - **atom-beautify** : pour indenter automatiquement notre code ;
+   
+## Commençons notre site web !
+- [La mission Dakar-Djibouti](mission-dakar-djibouti/fil-directif.md) 
