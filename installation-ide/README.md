@@ -2,12 +2,12 @@
 
 # Installons logiciel pour programmer :
 Vous vous en renderez vite compte, une page HTML peut vite comporter beaucoup de balises HTML. Et votre éditeur de texte 
-n'est pas vraiment adapté. Il ne vous signale pas les erreurs, ni ne met en valeur les balises dans votre page. Installons 
-donc un logiciel dédié à cela.
+n'est pas vraiment adapté pour gérer cela. Il ne vous signale pas les erreurs, ni ne met en valeur les balises dans votre page. Installons 
+donc un logiciel dédié.
 
 Il existe plusieurs types de logiciel :
-- Les logiciels dédiés à de la gestion de projets complexes, pour développer des logiciels ou des sites web complexes.
-On les appelle *IDE* pour *Environnement de développement intégré*. Ces logiciels sont Eclipse, NetBeans ou encore phpStorm.
+- Les logiciels dédiés à la gestion de projets complexes. On les appelle *IDE* pour *Environnement de développement intégré*. 
+Ces logiciels sont Eclipse, NetBeans ou encore phpStorm.
 - Mais c'est un peu gros pour notre usage, nous allons donc nous tourner vers un logiciel plus léger. Vous pouvez donc 
 installer au choix :
     - (sur Windows) [Notepad++](https://notepad-plus-plus.org/), le logiciel historique des développeurs, simple et efficace ;
@@ -24,3 +24,5 @@ logiciel, section "Installer", recherchez et installez les paquets suivants :
     - **Linter-htmlhint** : pour détecter les erreurs spécifiquement en HTML ;
     - **autoclose-html** : pour fermer automatiquement nos balises ;
     - **atom-beautify** : pour indenter automatiquement notre code ;
+    
+**[Partie suivante](../mission-dakar-djibouti/README.md)**

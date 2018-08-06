@@ -127,3 +127,5 @@ Et afin de gérer notre icone de temps, nous allons ajouter la méthode suivante
 - W3School | site de tutoriel pour apprendre à programmer : https://www.w3schools.com/jS/default.asp
 - Vue.js | documentation du framework Vue.js : https://vuejs.org/v2/guide/
 - W3C | Organisme de normalisation du web : https://www.w3.org/standards/webdesign/script
+
+**[Partie suivante](../sauvegarder-mettre-en-ligne/README.md)**

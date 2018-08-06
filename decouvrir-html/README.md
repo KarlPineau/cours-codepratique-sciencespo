@@ -95,3 +95,6 @@ balise `<h1>` et ne pas écrire sa balise `</h1>` ensuite
 lorsque vous lui avez indiqué qu'il s'agissait d'un titre, **vous ne lui avez pour autant indiqué aucune consigne d'ordre visuel**.
 L'action de pose de la balise `<h1>` est une action **sémantique**. Vous avez donné du sens à votre texte. Votre navigateur 
 en a déduit seul une apparence visuelle. 
+
+
+**[Partie suivante](../installation-ide/README.md)**
