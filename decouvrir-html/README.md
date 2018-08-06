@@ -2,16 +2,16 @@
 # À la découverte de la programmation web
 
 ## Premiers pas
-1. Ouvrez un éditeur de texte très simple (textEdit sur Mac)
-2. Tapez-y *"Hello, World!"*
-3. Enregistrez-sous votre fichier sur votre bureau, intitulez-le **bonjour.html**
-4. Rendez-vous sur votre bureau, ouvrez-votre fichier avec votre navigateur préféré (double-cliquez dessus simplement)
+1. Ouvrir un éditeur de texte simple (textEdit sur Mac)
+2. Y écrire `Hello, World!`
+3. L'enregistrez-sous sur le bureau & l'intituler **bonjour.html**
+4. Ouvrir le fichier sur le bureau avec un navigateur (double-cliquer dessus simplement)
 5. Voici votre premier site web :)
 
 ### Comprendre ce qui a été fait :
 En enregistrant votre fichier sous un format spécifique (.html), vous avez indiqué à votre ordinateur qu'il s'agissait 
-d'un fichier utilisé pour un site web. Votre ordinateur l'a donc transmis à votre navigateur web, qui l'a interprété en 
-tant que site web.
+d'un fichier utilisé pour un site web. 
+Votre ordinateur l'a donc transmis à votre navigateur, qui l'a interprété en tant que site web.
 
 #### Ce mini-site est-il en ligne ?
 Non, pour l'instant, ce site n'existe que sur votre ordinateur. Il évolue dans votre **environnement local**, aussi appelé
@@ -22,17 +22,19 @@ et non sur une adresse web. L'URL affichée doit ressembler à quelque chose du 
 
     file:///Users/karlpineau/Desktop/bonjour.html
 
-Alors qu'une adresse web, ça serait :
+Alors qu'une adresse web serait :
 
     https://fr.wikipedia.org/wiki/Wikipédia:Accueil_principal
 
 Vous noterez ici deux différences majeures :
-- Sur votre ordinateur, vous n'avez pas de **nom de domaine**, n'est indiquée dans votre URL que la liste des dossiers 
-que vous parcourez. Sur un site web, vous trouvez dans la deuxième partie de votre URL un nom de domaine qui explicite 
+- Sur votre ordinateur, vous n'avez pas de **nom de domaine**. 
+    - N'est indiquée dans votre URL que la liste des dossiers que vous parcourez. 
+    - Sur un site web, vous trouvez dans la deuxième partie de votre URL un nom de domaine qui explicite 
 le site sur lequel vous vous trouvez, dans notre exemple `fr.wikipedia.org`. Ce n'est donc qu'après cela que vous trouvez 
-dans l'URL les fichiers et dossiers qui composent l'arborescence du site dans laquelle vous naviguez. 
-- Le protocole utilisé : `file:` indique que l'on navigue dans les fichiers de votre ordinateur. Alors que sur le web, 
-on utilise le protocole `http:`
+dans l'URL les fichiers et dossiers qui composent l'arborescence du site, dans laquelle vous naviguez. 
+- Le protocole utilisé : 
+    - `file:` indique que l'on navigue dans les fichiers de votre ordinateur. 
+    - `http:` est le protocole utilisé pour le web
     
 Nous travaillerons à mettre votre site web en ligne plus tard :)
 
@@ -48,7 +50,7 @@ C'est tout simplement l'idée de placer un lien dans une zone de texte à l'int�
 
 ![Les liens hypertexte, source Wikimédia](https://upload.wikimedia.org/wikipedia/commons/4/41/Sistema_hipertextual.jpg)
 
-Depuis l'invention du HTML, on lui a trouvé de nombreux autres objets sémantiques représentables : des titres, des paragraphes,
+Depuis l'invention du HTML, on a trouvé à HTML de nombreux autres objets sémantiques représentables : des titres, des paragraphes,
 des images, des tableaux. On exprime donc en HTML bien plus de choses que seulement des liens.
 
 #### Matérialiser le HTML : la notion de balise
