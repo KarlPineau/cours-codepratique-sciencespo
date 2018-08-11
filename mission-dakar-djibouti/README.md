@@ -543,3 +543,75 @@ Le Palais du Trocadéo | media/retour-photo-0.jpg
           </figure>
       </section>
 
+### Ecoutons les cultures de 1930
+- Les sons à intégrer :
+
+Légende | Fichier
+------- | -------
+Tambours et flûtes, 1931, Dogon, https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1931_001_015_01/ | https://archives.crem-cnrs.fr//archives/items/download/CNRSMH_I_1931_001_015_01.mp3
+Musique du Sultan de Mâdara (hautbois et tambours), 1932, Mora, https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1931_001_019_01/ | https://archives.crem-cnrs.fr//archives/items/download/CNRSMH_I_1931_001_019_01.mp3
+
+- Les balises que nous allons utiliser :
+  - `<figure>`, [Figure](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure) servant à marquer notre élément composé d'un audio et d'une légende ;
+  - `<figcaption>`, [Légende](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figcaption) où nous allons placer la description de notre audio ;
+  - `<audio>`, [Lecteur audio](https://developer.mozilla.org/fr/docs/Web/HTML/Element/audio) auquel il faut ajouter attribut `controls` qui n'a exceptionnellement pas de valeur ;
+  - `<source>`, [Source de l'audio](https://developer.mozilla.org/fr/docs/Web/HTML/Element/source) que nous plaçons au sein de l'`<audio>` et à laquelle il faut ajouter un attribut `src` avec l'URL de notre audio et un attribut `type="audio/mpeg"` qui indique le type de fichier que nous utilisons ;
+- Exemple de présentation d'un objet :
+
+      <figure>
+          <audio controls>
+              <source src="https://archives.crem-cnrs.fr//archives/items/download/CNRSMH_I_1931_001_015_01.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio>
+          <figcaption>Tambours et flûtes, 1931, Dogon, <a href="https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1931_001_015_01/">Source</a></figcaption>
+      </figure>
+
+**Ce qui donne au final :**
+
+    <section>
+        <h2>Ecoutons les sons de l'expédition</h2>
+        <figure>
+            <audio controls>
+                <source src="https://archives.crem-cnrs.fr//archives/items/download/CNRSMH_I_1931_001_015_01.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <figcaption>Tambours et flûtes, 1931, Dogon, <a href="https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1931_001_015_01/">Source</a></figcaption>
+        </figure>
+        <figure>
+            <audio controls>
+                <source src="https://archives.crem-cnrs.fr//archives/items/download/CNRSMH_I_1931_001_019_01.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <figcaption>Musique du Sultan de Mâdara (hautbois et tambours), 1932, Mora, <a href="https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1931_001_019_01/">Source</a></figcaption>
+        </figure>
+
+        <p><a href="https://archives.crem-cnrs.fr/archives/collections/CNRSMH_I_1931_001/#">Plus de sons</a></p>
+    </section>
+
+### Les sources de notre travail :
+- Liste des sources :
+  - http://www.berose.fr/IMG/pdf/jj_6-09web.pdf : Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014
+  - https://fr.wikipedia.org/wiki/Mission_Dakar-Djibouti : Page Wikipédia dédiée à l'expédition
+  - https://www.domusweb.it/en/art/2012/09/06/mission-dakar-djibouti.html : Exposition virtuelle autour de l'expédition
+  - https://archives.crem-cnrs.fr/archives/collections/CNRSMH_I_1931_001/# : Archives audio de l'expédition
+  - http://cercc.ens-lyon.fr/spip.php?article423 : CERCC de l'ENS de Lyon
+  - https://journals.openedition.org/afriques/954 : Une séquence photographique de la mission Dakar-Djibouti : les funérailles d’Ayaléo (non utilisée dans cette page)
+  - https://francearchives.fr/fr/facomponent/655bb4f697d76017b991ac2d83ef75aca986c7e9 : Les carnets d'inventaire de l'expédition conservés aux archives du Musée du Quai Branly (non utilisée pour cette page)
+  - https://gallica.bnf.fr/ark:/12148/bpt6k65415773">Carnet d'instruction pour la collecte des objets, sur Gallica (non utilisée dans cette page)
+
+**Ce qui donne au final :**
+
+    <section>
+        <h2>Les sources de ce site</h2>
+
+        <ul>
+            <li><a href="http://www.berose.fr/IMG/pdf/jj_6-09web.pdf">Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Mission_Dakar-Djibouti">Page Wikipédia dédiée à l'expédition</a></li>
+            <li><a href="https://www.domusweb.it/en/art/2012/09/06/mission-dakar-djibouti.html">Exposition virtuelle autour de l'expédition</a></li>
+            <li><a href="https://archives.crem-cnrs.fr/archives/collections/CNRSMH_I_1931_001/#">Archives audio de l'expédition</a></li>
+            <li><a href="http://cercc.ens-lyon.fr/spip.php?article423">CERCC de l'ENS de Lyon</a></li>
+            <li><a href="https://journals.openedition.org/afriques/954">Une séquence photographique de la mission Dakar-Djibouti : les funérailles d’Ayaléo (non utilisée dans cette page)</a></li>
+            <li><a href="https://francearchives.fr/fr/facomponent/655bb4f697d76017b991ac2d83ef75aca986c7e9">Les carnets d'inventaire de l'expédition conservés aux archives du Musée du Quai Branly (non utilisée pour cette page)</a></li>
+            <li><a href="https://gallica.bnf.fr/ark:/12148/bpt6k65415773">Carnet d'instruction pour la collecte des objets, sur Gallica (non utilisée dans cette page)</a></li>          
+        </ul>
+    </section>
