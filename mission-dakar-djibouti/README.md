@@ -30,6 +30,23 @@
           Découvrez la mission Dakar-Djibouti
       </body>
 
+## Remplissions notre `<head>` :
+À l'intérieur de `<head></head>`, plaçons une balise `<title>` pour donner un titre à notre page et une balise `<meta>` pour indiquer un encodage à appliquer :
+
+      <title>Découvrez la mission Dakar-Djibouti</title>
+      <meta charset="utf-8">
+      
+## Utiliser les attributs :
+À l'intérieur de notre `body`, plaçons notre titre dans une balise de premier niveau :
+
+      <body>
+        <h1>Découvrez la mission Dakar-Djibouti</h1>
+      </body>
+      
+Puis ajoutons l'attribut `title` à notre balise `h1`:
+ 
+      <h1 title="Ce texte s'affiche au survol">Découvrez la mission Dakar-Djibouti</h1>
+
 ## Présentation du résultat final
 
 ## Allons-y
