@@ -1,4 +1,6 @@
-# La mission Dakar-Djibouti : Mise en forme
+**[Cours de Code Pratique](../README.md) | [Partie précédente](README.md)**
+
+# La mission Dakar-Djibouti : mise en forme
 
 ## Créons notre fichier CSS
 - Ouvrez un nouveau fichier sur Atom.io ;
