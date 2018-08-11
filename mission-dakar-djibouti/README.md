@@ -84,11 +84,11 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
 > Il s'agit pour une équipe composée de linguistes, d'ethnographes, d'un musicologue, d'un peintre, d'un naturaliste et d'un responsable des prises de vue cinématographiques, de traverser le continent d'ouest en est, du Sénégal à l'Éthiopie, afin de collecter un maximum de données ethnographiques. On compte ainsi plus de 3 000 objets rapportés et déposés au musée d'ethnographie du Trocadéro, ainsi que 6 000 photographies, 1 600 mètres de films et 1 500 fiches manuscrites.
 > Ce projet scientifique commandé par l'État français (loi du 31 mars 1931) avait également des visées politiques et économiques : asseoir la position française en Afrique, notamment en Afrique de l'Est, et s'opposer de cette façon à l'influence grandissante de la couronne britannique sur ce continent.
 > Plusieurs expéditions de Griaule ont ensuite suivi celle-ci : la Mission Sahara-Soudan (1935), puis la Mission Sahara-Cameroun (1936-1937) et enfin la Mission Niger-Lac Iro (1938-1939).
-- Les balises que nous allons utilisées :
+- Les balises que nous allons utiliser :
   - `<h2>` : [Titre de second niveau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h2), nous y plaçons notre intitulé de section : `<h2>Contexte de l'expédition</h2>` ;
   - `p` : [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p), nous y plaçons nos blocs de texte de description ainsi que notre source : `<p>Source : Wikipédia, consulté le 21 juillet 2018</p>` ;
   - `em` : [Emphase](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em), le texte précisant notre source n'est pas n'importe quel texte, nous allons insister dessus : `<p><em>Source : Wikipédia, consulté le 21 juillet 2018</em></p>` ;
-  - `a` : [Lien hypertexte](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em), puisque notre source est en ligne, autant en donner directement le lien : `<p><em>Source : <a href="https://fr.wikipedia.org/wiki/Mission_Dakar-Djibouti">Wikipédia, consulté le 21 juillet 2018</a></em></p>`. Vous constatez qu'on utilise l'attribut `href` pour indiquer l'URL de notre lien ;
+  - `a` : [Lien hypertexte](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a), puisque notre source est en ligne, autant en donner directement le lien : `<p><em>Source : <a href="https://fr.wikipedia.org/wiki/Mission_Dakar-Djibouti">Wikipédia, consulté le 21 juillet 2018</a></em></p>`. Vous constatez qu'on utilise l'attribut `href` pour indiquer l'URL de notre lien ;
   - `blockquote` : [Block de citation](https://developer.mozilla.org/fr/docs/Web/HTML/Element/blockquote), dans lequel nous allons placer les paragraphes de notre texte de présentation.
 
 **Ce qui nous donne au final :**
@@ -107,6 +107,48 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
         </article>
     </section>
 
+### Section 2 : la liste des membres de l'expédition :
+- La liste des membres, leur rôle, et leur page Wikipédia pour ceux qui en ont une :
+  - **André Schaeffner**, anthropologue, ethnomusicologue, https://fr.wikipedia.org/wiki/Andr%C3%A9_Schaeffner
+  - **Deborah Lifchitz**, linguiste, https://en.wikipedia.org/wiki/Deborah_Lifchitz
+  - **Michel Leiris**, écrivain, ethnologue, https://fr.wikipedia.org/wiki/Michel_Leiris
+  - **Marcel Griaule**, ethnologue, https://fr.wikipedia.org/wiki/Marcel_Griaule
+  - **Éric Lutten**, ethnologue, https://fr.wikipedia.org/wiki/%C3%89ric_Lutten
+  - **Jean Mouchet**, linguiste, ethnologue, https://fr.wikipedia.org/wiki/Jean_Mouchet
+  - **Gaston-Louis Roux**, dessinateur & peintre, https://fr.wikipedia.org/wiki/Gaston-Louis_Roux
+  - **Abba Jérôme Gabra Mussié**, lettré éthiopien, interprête
+  - **Marcel Larget**, naturaliste
+  - **Abel Faivre**, géographe et naturaliste
+- Les balises que nous allons utiliser :
+  - `<h2>` : [Titre de second niveau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h2), nous y plaçons notre intitulé de section : `<h2>Les membres de l'expédition</h2>` ;
+  - `<ul>` : [Liste à puces](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h2), dans laquelle nous plaçons les membres. Si nous avions voulu une liste ordonnée, nous aurions utilisé `<ol>` ;
+  - `<li>` : [Elément de liste](https://developer.mozilla.org/fr/docs/Web/HTML/Element/li), il y a donc une balise `<li>` par membre : `<li>Abel Faivre, géographe et naturaliste</li>` ;
+  - `<a>` : [Lien hypertexte](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a), lorsque nous possédons un lien vers une page Wikipédia : `<li><a href="https://fr.wikipedia.org/wiki/Andr%C3%A9_Schaeffner">André Schaeffner</a>, anthropologue, ethnomusicologue</li>` ;
+  - `<img/>` : [Image](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img), pour afficher la photographie de l'équipe, qui se trouve dans notre dossier `media` : `<img src="media/membres.jpg" alt="Les membres de l'expédition Dakar-Djibouti avant le départ" />`. Vous constatez que nous utilisons ici deux attributs :
+    - `src`: Il s'agit de la source de notre image, autrement dit son URL. Comme l'image est sur notre ordinateur, nous donnons son chemin ;
+    - `alt`: Le texte alternatif de l'image, à afficher lorsque l'image ne peut pas l'être. Par exemple pour les personnes non voyantes. Ce sont les deux attributs obligatoires pour une image.
+  
+**Ce qui nous donne au final :**
+
+    <section>
+          <h2>Les membres de l'expédition</h2>
+
+          <ul>
+              <li><a href="https://fr.wikipedia.org/wiki/Andr%C3%A9_Schaeffner">André Schaeffner</a>, anthropologue, ethnomusicologue</li>
+              <li><a href="https://en.wikipedia.org/wiki/Deborah_Lifchitz">Deborah Lifchitz</a>, linguiste</li>
+              <li><a href="https://fr.wikipedia.org/wiki/Michel_Leiris">Michel Leiris</a>, écrivain, ethnologue</li>
+              <li><a href="https://fr.wikipedia.org/wiki/Marcel_Griaule">Marcel Griaule</a>, ethnologue</li>
+              <li><a href="https://fr.wikipedia.org/wiki/%C3%89ric_Lutten">Éric Lutten</a>, ethnologue</li>
+              <li><a href="https://fr.wikipedia.org/wiki/Jean_Mouchet">Jean Mouchet</a>, linguiste, ethnologue</li>
+              <li><a href="https://fr.wikipedia.org/wiki/Gaston-Louis_Roux">Gaston-Louis Roux</a>, dessinateur & peintre</li>
+              <li>Abba Jérôme Gabra Mussié, lettré éthiopien, interprête</li>
+              <li>Marcel Larget, naturaliste</li>
+              <li>Abel Faivre, géographe et naturaliste</li>
+          </ul>
+
+          <img src="media/membres.jpg" alt="Les membres de l'expédition Dakar-Djibouti avant le départ" />
+      </section>
+  
 ## Présentation du résultat final
 
 ## Allons-y
