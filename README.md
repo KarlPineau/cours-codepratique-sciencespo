@@ -27,6 +27,8 @@
 
 ## Introduction
 - Qui a déjà fait de la programmation auparavant ?
+    - Voir http://data.gouv.fr
+    - Par exemple : https://www.data.gouv.fr/fr/datasets/recensement-des-equipements-sportifs-espaces-et-sites-de-pratiques/#_
 - Intérêt d'apprendre les bases en programmation, notamment web
    
 ## Parties du cours
