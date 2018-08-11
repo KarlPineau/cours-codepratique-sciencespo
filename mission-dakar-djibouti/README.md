@@ -497,6 +497,49 @@ Gondar, 8 août 1932. Michel  Leiris,  Éric  Lutten  et  Gaston-Louis  Roux,  s
 Gondar, septembre 1932. Gaston-Louis Roux offrant à Malkam Ayyahou un portrait du Ras Haylou qu’il vient d’exécuter. DR (coll. particulière). | media/expedition-photo-4.png
 Marcel Griaule dans sa chambre noire mobile. Fonds Marcel-Griaule, Bibliothèque Éric-de-Dampierre, MAE, Université Paris Ouest Nanterre La Défense. | media/expedition-photo-5.jpg
 Le Palais du Trocadéo | media/retour-photo-0.jpg
-## Présentation du résultat final
 
-## Allons-y
+- Les balises que nous allons utiliser :
+  - `<figure>`, [Figure](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure) servant à marquer un élément composé la plupart du temps d'une image et d'une légende ;
+  - `<figcaption>`, [Légende](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figcaption) où nous allons placer la description de notre photo ;
+  - `<img/>`, [Image](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img) à laquelle il faut ajouter ses attributs `src` et `alt` ;
+- Exemple de présentation d'un objet :
+
+      <figure>
+          <img src="media/avant-photo-0.jpg" alt="Photographie de Joséphine  Baker  et  Georges  Henri  Rivière" />
+          <figcaption>Joséphine  Baker  et  Georges  Henri  Rivière  devant  une  vitrine  du  Musée d’ethnographie  du  Trocadéro,  avant  le  départ  de  la  mission  Dakar-Djibouti,  en  avril 1931. DR (coll. particulière).</figcaption>
+      </figure>
+
+**Ce qui donne au final :**
+
+      <section>
+          <h2>Galerie de photos</h2>
+          <figure>
+              <img src="media/avant-photo-0.jpg" alt="Photographie de Joséphine  Baker  et  Georges  Henri  Rivière" />
+              <figcaption>Joséphine  Baker  et  Georges  Henri  Rivière  devant  une  vitrine  du  Musée d’ethnographie  du  Trocadéro,  avant  le  départ  de  la  mission  Dakar-Djibouti,  en  avril 1931. DR (coll. particulière).</figcaption>
+          </figure>
+          <figure>
+              <img src="media/expedition-photo-1.png" alt="Des membres de la mission Dakar-Djibouti avec quelques-uns de leurs interlocuteurs dogons" />
+              <figcaption>Des membres de la mission Dakar-Djibouti avec quelques-uns de leurs interlocuteurs dogons en octobre 1931.</figcaption>
+          </figure>
+          <figure>
+              <img src="media/expedition-photo-2.png" alt="Photographie devant la « villa Médicis »" />
+              <figcaption>Gondar, 6 août 1932. Devant la « villa Médicis » (abri construit par la mission Dakar-Djibouti sur le territoire du consulat italien de Gondar).</figcaption>
+          </figure>
+          <figure>
+              <img src="media/expedition-photo-3.png" alt="Michel  Leiris,  Éric  Lutten  et  Gaston-Louis  Roux,  se  retournant" />
+              <figcaption>Gondar, 8 août 1932. Michel  Leiris,  Éric  Lutten  et  Gaston-Louis  Roux,  se  retournant,  en  train  d’exécuter  des  copies  des  peintures d’Antonios. DR (coll. particulière).</figcaption>
+          </figure>
+          <figure>
+              <img src="media/expedition-photo-4.png" alt="Gaston-Louis Roux offrant à Malkam Ayyahou un portrait du Ras Haylou" />
+              <figcaption>Gondar, septembre 1932. Gaston-Louis Roux offrant à Malkam Ayyahou un portrait du Ras Haylou qu’il vient d’exécuter. DR (coll. particulière).</figcaption>
+          </figure>
+          <figure>
+              <img src="media/expedition-photo-5.jpg" alt="Marcel Griaule dans sa chambre noire mobile" />
+              <figcaption>Marcel Griaule dans sa chambre noire mobile. Fonds Marcel-Griaule, Bibliothèque Éric-de-Dampierre, MAE, Université Paris Ouest Nanterre La Défense.</figcaption>
+          </figure>
+          <figure>
+              <img src="media/retour-photo-0.jpg" alt="Le Palais du Trocadéo" />
+              <figcaption>Le Palais du Trocadéo</figcaption>
+          </figure>
+      </section>
+
