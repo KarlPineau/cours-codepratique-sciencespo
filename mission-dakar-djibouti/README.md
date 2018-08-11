@@ -7,6 +7,29 @@
 - Créez un sous dossier `mission-dakar-djibouti`
 - Récupérez [le dossier de contenus sur GitHub](media) et copiez-collez le contenu dans votre dossier
 
+## Créons la page d'accueil de notre site
+- Lancez le logiciel **Atom.io** (un nouveau fichier s’ouvre automatiquement)
+- Ecrivez dans votre fichier `Découvrez la mission Dakar-Djibouti`
+- Sauvegardez-sous votre fichier, placez-le dans votre dossier `mission-dakar-djibouti` et intitulez-le `index.html`
+
+## Construire la structure initiale de notre site web
+- Supprimez ce qui pré-existe comme texte dans la page
+- Inscrivez :
+
+      <!DOCTYPE html>
+      <html>
+      
+      </html>
+      
+- À l'intérieur de `<html></html>`, plaçons nos balises `<head></head>` et `<body></body>`
+
+      <head>
+      
+      </head>
+      <body>
+          Découvrez la mission Dakar-Djibouti
+      </body>
+
 ## Présentation du résultat final
 
 ## Allons-y
