@@ -16,13 +16,7 @@
 - Mettons en forme
 - Animons
 - Mettre en ligne
-### La partie plus théorique
-- Théorie du web
-    - Différence entre le web et internet
-    - http / https
-    - URL, URI
-### À vous de jouer
-- Créez votre CV
+
 
 
 ## Introduction
