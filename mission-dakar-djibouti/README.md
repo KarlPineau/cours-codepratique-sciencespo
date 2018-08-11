@@ -445,7 +445,7 @@ Boli | Culture Bana. | - | media/objet-boli-kana.jpg
 - Les balises que nous allons utiliser :
   - `<article>`, [Article](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article) servant à marquer une unité documentaire : ici un objet ;
   - `<h3>`, [Titre de niveau 3](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h3) que nous allons utiliser pour le nom de l'objet ;
-  - `<p>`, [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) que nous allons utiliser la culture et pour le lieu de conservation ;
+  - `<p>`, [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) que nous allons utiliser pour la culture et pour le lieu de conservation ;
   - `<img/>`, [Image](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img) de l'objet à laquelle il faut ajouter ses attributs `src` et `alt` ;
 - Exemple de présentation d'un objet :
 
@@ -485,6 +485,18 @@ Boli | Culture Bana. | - | media/objet-boli-kana.jpg
         </article>
     </section>
 
+### La galerie de photos de l'expédition
+- Les photographies à intégrer :
+
+Légende | Fichier
+------- | -------
+Joséphine  Baker  et  Georges  Henri  Rivière  devant  une  vitrine  du  Musée d’ethnographie  du  Trocadéro,  avant  le  départ  de  la  mission  Dakar-Djibouti,  en  avril 1931. DR (coll. particulière). | media/avant-photo-0.jpg
+Des membres de la mission Dakar-Djibouti avec quelques-uns de leurs interlocuteurs dogons en octobre 1931. | media/expedition-photo-1.png
+Gondar, 6 août 1932. Devant la « villa Médicis » (abri construit par la mission Dakar-Djibouti sur le territoire du consulat italien de Gondar). | media/expedition-photo-2.png
+Gondar, 8 août 1932. Michel  Leiris,  Éric  Lutten  et  Gaston-Louis  Roux,  se  retournant,  en  train  d’exécuter  des  copies  des  peintures d’Antonios. DR (coll. particulière). | media/expedition-photo-3.png
+Gondar, septembre 1932. Gaston-Louis Roux offrant à Malkam Ayyahou un portrait du Ras Haylou qu’il vient d’exécuter. DR (coll. particulière). | media/expedition-photo-4.png
+Marcel Griaule dans sa chambre noire mobile. Fonds Marcel-Griaule, Bibliothèque Éric-de-Dampierre, MAE, Université Paris Ouest Nanterre La Défense. | media/expedition-photo-5.jpg
+Le Palais du Trocadéo | media/retour-photo-0.jpg
 ## Présentation du résultat final
 
 ## Allons-y
