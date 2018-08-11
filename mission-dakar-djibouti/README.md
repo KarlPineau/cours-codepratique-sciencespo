@@ -1,3 +1,5 @@
+**[Cours de Code Pratique](../README.md) | [Partie précédente](../installation-ide/README.md)**
+
 # Exemple de page web : la Mission Dakar-Djibouti
 
 ## Mettre en place notre environnement de travail
@@ -646,3 +648,5 @@ Il faut ensuite ajouter à chaque `<section>` son `id` correspondant. Par exempl
 
     <section id="contexte">
         <h2>Contexte de l'expédition</h2>
+
+**[Partie suivante](README-css.md)**
