@@ -2,18 +2,18 @@
 
 ## Mettre en place notre environnement de travail
 - Où se positionner sur votre ordinateur :
-  - Sur Mac, rendez-vous dans le dossier `Sites` (depuis votre dossier home). Il se peut que ce dossier n'existe pas encore, auquel cas, vous pouvez l'y créer (depuis home).
-  - Sur Windows, créez un dossier `Sites` où vous voulez
-- Créez un sous dossier `mission-dakar-djibouti`
-- Récupérez [le dossier de contenus sur GitHub](media) et copiez-collez le contenu dans votre dossier
+  - Sur Mac, rendez-vous dans le dossier `Sites` (depuis votre dossier `home`). Il est possible que ce dossier n'existe pas encore, auquel cas vous pouvez l'y créer (dans `home`) ;
+  - Sur Windows, créez un dossier `Sites` où vous voulez ;
+- Créez un sous dossier `mission-dakar-djibouti` ;
+- Récupérez [le dossier de contenus sur GitHub](https://github.com/KarlPineau/cours-codepratique-sciencespo-media) (onglet clone or download) et copiez-collez son contenu dans votre dossier.
 
 ## Créons la page d'accueil de notre site
-- Lancez le logiciel **Atom.io** (un nouveau fichier s’ouvre automatiquement)
-- Ecrivez dans votre fichier `Découvrez la mission Dakar-Djibouti`
-- Sauvegardez-sous votre fichier, placez-le dans votre dossier `mission-dakar-djibouti` et intitulez-le `index.html`
+- Lancez le logiciel **Atom.io** (un nouveau fichier s’ouvre automatiquement) ;
+- Ecrivez dans votre fichier `Découvrez la mission Dakar-Djibouti` ;
+- Sauvegardez-sous votre fichier, placez-le dans votre dossier `mission-dakar-djibouti` et intitulez-le `index.html`.
 
 ## Construire la structure initiale de notre site web
-- Supprimez ce qui pré-existe comme texte dans la page
+- Supprimez ce qui pré-existe comme texte dans la page ;
 - Inscrivez :
 
       <!DOCTYPE html>
@@ -21,7 +21,7 @@
       
       </html>
       
-- À l'intérieur de `<html></html>`, plaçons nos balises `<head></head>` et `<body></body>`
+- À l'intérieur de `<html></html>`, plaçons nos balises `<head></head>` et `<body></body>` :
 
       <head>
       
@@ -30,13 +30,13 @@
           Découvrez la mission Dakar-Djibouti
       </body>
 
-## Remplissions notre `<head>` :
+## Remplissions notre `<head>`
 À l'intérieur de `<head></head>`, plaçons une balise `<title>` pour donner un titre à notre page et une balise `<meta>` pour indiquer un encodage à appliquer :
 
       <title>Découvrez la mission Dakar-Djibouti</title>
       <meta charset="utf-8">
       
-## Utiliser les attributs :
+## Utiliser les attributs
 À l'intérieur de notre `body`, plaçons notre titre dans une balise de premier niveau :
 
       <body>
@@ -57,7 +57,7 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
   - aside : https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside
   - nav : https://developer.mozilla.org/fr/docs/Web/HTML/Element/nav
 
-- Notre structuration :
+- Notre structure :
 
       <body>
           <header>
@@ -124,9 +124,9 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
   - `<ul>` : [Liste à puces](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h2), dans laquelle nous plaçons les membres. Si nous avions voulu une liste ordonnée, nous aurions utilisé `<ol>` ;
   - `<li>` : [Elément de liste](https://developer.mozilla.org/fr/docs/Web/HTML/Element/li), il y a donc une balise `<li>` par membre : `<li>Abel Faivre, géographe et naturaliste</li>` ;
   - `<a>` : [Lien hypertexte](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a), lorsque nous possédons un lien vers une page Wikipédia : `<li><a href="https://fr.wikipedia.org/wiki/Andr%C3%A9_Schaeffner">André Schaeffner</a>, anthropologue, ethnomusicologue</li>` ;
-  - `<img/>` : [Image](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img), pour afficher la photographie de l'équipe, qui se trouve dans notre dossier `media` : `<img src="media/membres.jpg" alt="Les membres de l'expédition Dakar-Djibouti avant le départ" />`. Vous constatez que nous utilisons ici deux attributs :
-    - `src`: Il s'agit de la source de notre image, autrement dit son URL. Comme l'image est sur notre ordinateur, nous donnons son chemin ;
-    - `alt`: Le texte alternatif de l'image, à afficher lorsque l'image ne peut pas l'être. Par exemple pour les personnes non voyantes. Ce sont les deux attributs obligatoires pour une image.
+  - `<img/>` : [Image](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img) pour afficher la photographie de l'équipe, qui se trouve dans notre dossier `media` : `<img src="media/membres.jpg" alt="Les membres de l'expédition Dakar-Djibouti avant le départ" />`. Vous constatez que nous utilisons ici deux attributs :
+    - `src`: Il s'agit de la source de notre image, autrement dit son URL. Comme l'image est sur notre ordinateur, nous donnons son chemin relatif ;
+    - `alt`: Le texte alternatif de l'image, à afficher lorsque l'image ne peut pas l'être. Par exemple, pour les personnes non voyantes. Ce sont les deux attributs obligatoires pour une image.
   
 **Ce qui nous donne au final :**
 
@@ -151,7 +151,7 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
 
 ### Mettons un peu de contenu dans notre footer :
 - Notre texte : `Mini-site réalisé dans la joie et l'allégresse par les étudiants de Sciences Po'.`
-- Notre balise : `<p>`, [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) dont vous constatez que la balise sert à présenter n'importe quel bloc de texte.
+- Notre balise : `<p>`, [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) dont vous constatez qu'il sert à présenter n'importe quel bloc de texte.
 
 **Ce qui nous donne au final :**
 
@@ -173,17 +173,17 @@ Date |Ville |Pays |Objets collectés
 
 - Nous allons utiliser les balises suivantes :
   - À vous de mettre en place les balises pour :
-    - le titre de la section
-    - la source : Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014, http://www.berose.fr/IMG/pdf/jj_6-09web.pdf
-  - `<table>`, [Tableau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/table) : il s'agit de la balise indiquant que l'on construit un tableau
-  - `<thead>`, [En-tête](https://developer.mozilla.org/fr/docs/Web/HTML/Element/thead) de notre tableau. Il contient des lignes `<tr>`.
-  - `<tbody>`, [Corps](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tbody) de notre tableau. Il contient des lignes `<tr>`.
-  - `<caption>`, [Légend](https://developer.mozilla.org/fr/docs/Web/HTML/Element/caption) de notre tableau.
-  - `<tr>`, [Ligne](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tr) de notre tableau.
-  - `<td>`, [Cellule classique](https://developer.mozilla.org/fr/docs/Web/HTML/Element/td) de notre tableau. Se trouve dans une ligne `<tr>`.
-  - `<th>`, [En-tête](https://developer.mozilla.org/fr/docs/Web/HTML/Element/th) de notre tableau. Se trouve dans une ligne `<tr>`.
-- À savoir sur les tableaux :
-  - On marque les cellules vides (c'est-à-dire qu'on écrit `<td></td>`) ;
+    - le titre de la section ;
+    - la source : Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014, http://www.berose.fr/IMG/pdf/jj_6-09web.pdf ;
+  - `<table>`, [Tableau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/table) : il s'agit de la balise indiquant que l'on construit un tableau ;
+  - `<thead>`, [En-tête](https://developer.mozilla.org/fr/docs/Web/HTML/Element/thead) de notre tableau. Il contient des lignes `<tr>` ;
+  - `<tbody>`, [Corps](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tbody) de notre tableau. Il contient des lignes `<tr>` ;
+  - `<caption>`, [Légende](https://developer.mozilla.org/fr/docs/Web/HTML/Element/caption) de notre tableau ;
+  - `<tr>`, [Ligne](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tr) de notre tableau ;
+  - `<td>`, [Cellule classique](https://developer.mozilla.org/fr/docs/Web/HTML/Element/td) de notre tableau. Se trouve dans une ligne `<tr>` ;
+  - `<th>`, [En-tête](https://developer.mozilla.org/fr/docs/Web/HTML/Element/th) de notre tableau. Se trouve dans une ligne `<tr>`. Sert notamment pour les cellules d'un `thead` ;
+- À savoir à propos des tableaux :
+  - On marque les cellules vides (c'est-à-dire qu'on écrit `<td></td>`), sinon un trou apparait dans le tableau, voire un décalage de cellules ;
   - On peut fusionner des cellules en utilisant les attributs `rowspan` (fusionner des cellules horizontalement) et `colspan` (fusionner des cellules verticalement), et l'on indique comme valeur de l'attribut le nombre de cellules à fusionner. La règle ci-dessus ne s'applique plus, si on fusionne 3 cellules, on n'écrit qu'un seul `<td rowspan=3></td>`.
 - Exemple de code simple :
 
@@ -432,8 +432,8 @@ Date |Ville |Pays |Objets collectés
         <p><em>Source : <a href="http://www.berose.fr/IMG/pdf/jj_6-09web.pdf">Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014</a></em></p>
     </section>
 
-### Présentons un group d'objets rapportés par l'expédition
-- Les objets, dont les photos se trouvent dans le dossier **media**, **"objet-"** :
+### Présentons un groupe d'objets rapportés par l'expédition
+- Les objets, dont les photos se trouvent dans le dossier **media** :
 
 Nom de l'objet | Culture & découverte | Lieu de conservation | Fichier image
 -------------- | -------------------- | -------------------- | ---------------
@@ -554,7 +554,7 @@ Musique du Sultan de Mâdara (hautbois et tambours), 1932, Mora, https://archive
 - Les balises que nous allons utiliser :
   - `<figure>`, [Figure](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figure) servant à marquer notre élément composé d'un audio et d'une légende ;
   - `<figcaption>`, [Légende](https://developer.mozilla.org/fr/docs/Web/HTML/Element/figcaption) où nous allons placer la description de notre audio ;
-  - `<audio>`, [Lecteur audio](https://developer.mozilla.org/fr/docs/Web/HTML/Element/audio) auquel il faut ajouter attribut `controls` qui n'a exceptionnellement pas de valeur ;
+  - `<audio>`, [Lecteur audio](https://developer.mozilla.org/fr/docs/Web/HTML/Element/audio) auquel il faut ajouter attribut `controls` qui n'a exceptionnellement pas de valeur, cela permet d'afficher à l'internaute les boutons pour jouer l'audio ou l'arrêter ;
   - `<source>`, [Source de l'audio](https://developer.mozilla.org/fr/docs/Web/HTML/Element/source) que nous plaçons au sein de l'`<audio>` et à laquelle il faut ajouter un attribut `src` avec l'URL de notre audio et un attribut `type="audio/mpeg"` qui indique le type de fichier que nous utilisons ;
 - Exemple de présentation d'un objet :
 
@@ -585,7 +585,7 @@ Musique du Sultan de Mâdara (hautbois et tambours), 1932, Mora, https://archive
             <figcaption>Musique du Sultan de Mâdara (hautbois et tambours), 1932, Mora, <a href="https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1931_001_019_01/">Source</a></figcaption>
         </figure>
 
-        <p><a href="https://archives.crem-cnrs.fr/archives/collections/CNRSMH_I_1931_001/#">Plus de sons</a></p>
+        <p><a href="https://archives.crem-cnrs.fr/archives/collections/CNRSMH_I_1931_001/#">Découvrir plus de sons de la mission</a></p>
     </section>
 
 ### Les sources de notre travail :
@@ -615,3 +615,34 @@ Musique du Sultan de Mâdara (hautbois et tambours), 1932, Mora, https://archive
             <li><a href="https://gallica.bnf.fr/ark:/12148/bpt6k65415773">Carnet d'instruction pour la collecte des objets, sur Gallica (non utilisée dans cette page)</a></li>          
         </ul>
     </section>
+    
+## Mettons à jour notre header :
+- Les balises à ajouter :
+  - Un `<p>` contenant le texte `Entre 1931 et 1933, Marcel Griaule et 9 autres expéditionnaires parcourent l'Afrique d'Ouest en Est avec l'appui de <a href="https://fr.wikipedia.org/wiki/Georges_Henri_Rivi%C3%A8re">Georges Henri Rivière</a>.`
+  - Une `<img>` pointant vers notre carte : `<img src="media/map.jpg" alt="Carte du parcours de l'expédition Dakar-Djibouti" />`
+  - Un `nav` contenant une `ul` avec des liens vers les sections de notre page.
+
+**Ce qui nous donne :**
+
+    <header>
+        <h1>La mission Dakar-Djibouti</h1>
+
+        <p>Entre 1931 et 1933, Marcel Griaule et 9 autres expéditionnaires parcourent l'Afrique d'Ouest en Est avec l'appui de <a href="https://fr.wikipedia.org/wiki/Georges_Henri_Rivi%C3%A8re">Georges Henri Rivière</a>.</p>
+        <img src="media/map.jpg" alt="Carte du parcours de l'expédition Dakar-Djibouti" />
+        <nav>
+            <ul>
+                <li><a href="#contexte">Contexte de l'expédition</a></li>
+                <li><a href="#membres">Les membres de l'expédition</a></li>
+                <li><a href="#parcours">Le parcours de l'expédition</a></li>
+                <li><a href="#objets">Des objets de l'expédition</a></li>
+                <li><a href="#galerie">Galerie de photos</a></li>
+                <li><a href="#sons">Ecoutons les sons de l'expédition</a></li>
+                <li><a href="#sources">Sources de cette page</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+Il faut ensuite ajouter à chaque `<section>` son `id` correspondant. Par exemple :
+
+    <section id="contexte">
+        <h2>Contexte de l'expédition</h2>
