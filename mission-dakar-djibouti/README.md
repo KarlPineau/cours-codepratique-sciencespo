@@ -432,6 +432,59 @@ Date |Ville |Pays |Objets collectés
         <p><em>Source : <a href="http://www.berose.fr/IMG/pdf/jj_6-09web.pdf">Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014</a></em></p>
     </section>
 
+### Présentons un group d'objets rapportés par l'expédition
+- Les objets, dont les photos se trouvent dans le dossier **media**, **"objet-"** :
+
+Nom de l'objet | Culture & découverte | Lieu de conservation | Fichier image
+-------------- | -------------------- | -------------------- | ---------------
+Sistrum Wándyerma | Culture Dogon, collecté à Mopti, Mali, en 1931. | Collection du musée du Quai Branly. | media/objet-sistrum-dogon.jpg
+Masques | Culture Dogon, Mali, en 1931. | Fonds Marcel-Griaule, Bibliothèque Éric-de-Dampierre, MAE, Université Paris Ouest Nanterre La Défense. | media/objet-masque-dogon.jpg
+Siège | Culture Mbáta, collecté à Bangassu, en 1931. | Collection du musée du Quai Branly. | media/objet-siege-mbata.jpg
+Boli | Culture Bana. | - | media/objet-boli-kana.jpg
+
+- Les balises que nous allons utiliser :
+  - `<article>`, [Article](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article) servant à marquer une unité documentaire : ici un objet ;
+  - `<h3>`, [Titre de niveau 3](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h3) que nous allons utiliser pour le nom de l'objet ;
+  - `<p>`, [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) que nous allons utiliser la culture et pour le lieu de conservation ;
+  - `<img/>`, [Image](https://developer.mozilla.org/fr/docs/Web/HTML/Element/img) de l'objet à laquelle il faut ajouter ses attributs `src` et `alt` ;
+- Exemple de présentation d'un objet :
+
+      <article>
+          <h3>Siège</h3>
+          <p>Culture Mbáta, collecté à Bangassu, en 1931.</p>
+          <p>Collection du musée du Quai Branly.</p>
+          <img src="media/objet-siege-mbata.jpg" alt="Siège de la culture Mbáta" />
+      </article>
+      
+**Nous obtenons au final :**
+    
+    <section>
+        <h2>Des objets de l'expédition</h2>
+        <article>
+            <h3>Sistrum Wándyerma</h3>
+            <p>Culture Dogon, collecté à Mopti, Mali, en 1931.</p>
+            <p>Collection du musée du Quai Branly.</p>
+            <img src="media/objet-sistrum-dogon.jpg" alt="Sistrum de la culture Dogon" />
+        </article>
+        <article>
+            <h3>Masques</h3>
+            <p>Culture Dogon, Mali, en 1931.</p>
+            <p>Fonds Marcel-Griaule, Bibliothèque Éric-de-Dampierre, MAE, Université Paris Ouest Nanterre La Défense.</p>
+            <img src="media/objet-masque-dogon.jpg" alt="Photographie présentant des Dogons portant des masques rituels" />
+        </article>
+        <article>
+            <h3>Siège</h3>
+            <p>Culture Mbáta, collecté à Bangassu, en 1931.</p>
+            <p>Collection du musée du Quai Branly.</p>
+            <img src="media/objet-siege-mbata.jpg" alt="Siège de la culture Mbáta" />
+        </article>
+        <article>
+            <h3>Boli</h3>
+            <p>Culture Bana.</p>
+            <img src="media/objet-boli-kana.jpg" alt="Boli de la culture Kana" />
+        </article>
+    </section>
+
 ## Présentation du résultat final
 
 ## Allons-y
