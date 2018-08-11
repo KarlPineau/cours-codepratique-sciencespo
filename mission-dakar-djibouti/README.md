@@ -148,7 +148,19 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
 
           <img src="media/membres.jpg" alt="Les membres de l'expédition Dakar-Djibouti avant le départ" />
       </section>
-  
+
+### Mettons un peu de contenu dans notre footer :
+- Notre texte : `Mini-site réalisé dans la joie et l'allégresse par les étudiants de Sciences Po'.`
+- Notre balise : `<p>`, [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) dont vous constatez que la balise sert à présenter n'importe quel bloc de texte.
+
+**Ce qui nous donne au final :**
+
+    <footer>
+        <p>Mini-site réalisé dans la joie et l'allégresse par les étudiants de Sciences Po'.</p>
+    </footer>
+    
+## Complétons le contenu de notre présentation :
+
 ## Présentation du résultat final
 
 ## Allons-y
