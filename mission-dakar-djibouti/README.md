@@ -162,6 +162,7 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
 ## Complétons le contenu de notre présentation :
 ### Le parcours de l'expédition :
 - Le contenu de notre tableau est divisé en 4 colonnes : la date, la ville, le pays, le nombre collecté à ce point. Ce qui nous donne : 
+
 Date |Ville |Pays |Objets collectés
 -----|------|-----|-----------------
 19 mai 1931 | Bordeaux | France | -
@@ -169,6 +170,7 @@ Date |Ville |Pays |Objets collectés
 14 juin | Tambacounda | - | 181
 28 juin | Kayes | Mali | 242
 17 juillet | Kita | - |414
+
 - Nous allons utiliser les balises suivantes :
   - À vous de mettre en place les balises pour :
     - le titre de la section
@@ -205,7 +207,7 @@ Date |Ville |Pays |Objets collectés
           </tbody>
       </table>
  
- **Nous obtenons au final**
+ **Nous obtenons au final :** (copiez-collez-le sur votre page)
  
     <section>
         <h2>Le parcours de l'expédition</h2>
