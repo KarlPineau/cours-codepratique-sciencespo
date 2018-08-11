@@ -47,6 +47,38 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
  
       <h1 title="Ce texte s'affiche au survol">Découvrez la mission Dakar-Djibouti</h1>
 
+## Structuration du body :
+- Les principales balises de structure :
+  - header : https://developer.mozilla.org/fr/docs/Web/HTML/Element/header
+  - main : https://developer.mozilla.org/fr/docs/Web/HTML/Element/main
+  - footer : https://developer.mozilla.org/fr/docs/Web/HTML/Element/footer
+  - section : https://developer.mozilla.org/fr/docs/Web/HTML/Element/section
+  - article : https://developer.mozilla.org/fr/docs/Web/HTML/Element/article
+  - aside : https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside
+  - nav : https://developer.mozilla.org/fr/docs/Web/HTML/Element/nav
+
+- Notre structuration :
+
+      <body>
+          <header>
+              <h1 title="Ce texte s'affiche au survol">Découvrez la mission Dakar-Djibouti</h1>
+              <nav>
+
+              </nav>
+          </header>
+          <main>
+              <section>
+
+              </section>
+              <section>
+
+              </section>
+          </main>
+          <footer>
+
+          </footer>
+      </body>
+
 ## Présentation du résultat final
 
 ## Allons-y
