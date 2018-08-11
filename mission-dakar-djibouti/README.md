@@ -160,6 +160,275 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
     </footer>
     
 ## Complétons le contenu de notre présentation :
+### Le parcours de l'expédition :
+- Le contenu de notre tableau est divisé en 4 colonnes : la date, la ville, le pays, le nombre collecté à ce point. Ce qui nous donne : 
+Date |Ville |Pays |Objets collectés
+-----|------|-----|-----------------
+19 mai 1931 | Bordeaux | France | -
+31 mai | Dakar | Sénégal | 41
+14 juin | Tambacounda | - | 181
+28 juin | Kayes | Mali | 242
+17 juillet | Kita | - |414
+- Nous allons utiliser les balises suivantes :
+  - À vous de mettre en place les balises pour :
+    - le titre de la section
+    - la source : Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014, http://www.berose.fr/IMG/pdf/jj_6-09web.pdf
+  - `<table>`, [Tableau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/table) : il s'agit de la balise indiquant que l'on construit un tableau
+  - `<thead>`, [En-tête](https://developer.mozilla.org/fr/docs/Web/HTML/Element/thead) de notre tableau. Il contient des lignes `<tr>`.
+  - `<tbody>`, [Corps](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tbody) de notre tableau. Il contient des lignes `<tr>`.
+  - `<caption>`, [Légend](https://developer.mozilla.org/fr/docs/Web/HTML/Element/caption) de notre tableau.
+  - `<tr>`, [Ligne](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tr) de notre tableau.
+  - `<td>`, [Cellule classique](https://developer.mozilla.org/fr/docs/Web/HTML/Element/td) de notre tableau. Se trouve dans une ligne `<tr>`.
+  - `<th>`, [En-tête](https://developer.mozilla.org/fr/docs/Web/HTML/Element/th) de notre tableau. Se trouve dans une ligne `<tr>`.
+- À savoir sur les tableaux :
+  - On marque les cellules vides (c'est-à-dire qu'on écrit `<td></td>`) ;
+  - On peut fusionner des cellules en utilisant les attributs `rowspan` (fusionner des cellules horizontalement) et `colspan` (fusionner des cellules verticalement), et l'on indique comme valeur de l'attribut le nombre de cellules à fusionner. La règle ci-dessus ne s'applique plus, si on fusionne 3 cellules, on n'écrit qu'un seul `<td rowspan=3></td>`.
+- Exemple de code simple :
+
+      <table>
+          <caption>Parcours de l'expédition Dakar-Djibouti</caption>
+          <thead>
+          <tr>
+              <th>Date</th>
+              <th>Ville</th>
+              <th>Pays</th>
+              <th>Objets collectés</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td>19 mai 1931</td>
+              <td>Bordeaux</td>
+              <td>France</td>
+              <td></td>
+          </tr>
+          </tbody>
+      </table>
+ 
+ **Nous obtenons au final**
+ 
+    <section>
+        <h2>Le parcours de l'expédition</h2>
+
+        <table>
+            <caption>Parcours de l'expédition Dakar-Djibouti</caption>
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Ville</th>
+                <th>Pays</th>
+                <th>Objets collectés</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>19 mai 1931</td>
+                <td>Bordeaux</td>
+                <td>France</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>31 mai</td>
+                <td>Dakar</td>
+                <td>Sénégal</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>14 juin</td>
+                <td>Tambacounda</td>
+                <td>-</td>
+                <td>181</td>
+            </tr>
+            <tr>
+                <td>28 juin</td>
+                <td>Kayes</td>
+                <td>Mali</td>
+                <td>242</td>
+            </tr>
+            <tr>
+                <td>17 juillet</td>
+                <td>Kita</td>
+                <td>-</td>
+                <td>414</td>
+            </tr>
+            <tr>
+                <td>4 août</td>
+                <td>Bamako</td>
+                <td>-</td>
+                <td>1040</td>
+            </tr>
+            <tr>
+                <td>31 août</td>
+                <td>Sikasso</td>
+                <td>-</td>
+                <td>1258</td>
+            </tr>
+            <tr>
+                <td>3 septembre</td>
+                <td>Koutiala</td>
+                <td>-</td>
+                <td>1342</td>
+            </tr>
+            <tr>
+                <td>4 septembre</td>
+                <td>Ségou</td>
+                <td>-</td>
+                <td>1400</td>
+            </tr>
+            <tr>
+                <td>10 septembre</td>
+                <td>Mopti</td>
+                <td>-</td>
+                <td>1686</td>
+            </tr>
+            <tr>
+                <td>21 septembre</td>
+                <td>Djenné</td>
+                <td>-</td>
+                <td>1784</td>
+            </tr>
+            <tr>
+                <td>28 septembre</td>
+                <td>Sanga</td>
+                <td>-</td>
+                <td>2104</td>
+            </tr>
+            <tr>
+                <td>28 novembre</td>
+                <td>-</td>
+                <td>-</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>30 novembre</td>
+                <td>Ouagadouhou</td>
+                <td>Haute-Volta</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4 décembre</td>
+                <td>Natitingou</td>
+                <td>Dahomey</td>
+                <td>2149</td>
+            </tr>
+            <tr>
+                <td>6 décembre</td>
+                <td>Djougou</td>
+                <td>-</td>
+                <td>2184</td>
+            </tr>
+            <tr>
+                <td>11 décembre</td>
+                <td>Cotonou</td>
+                <td>-</td>
+                <td>2411</td>
+            </tr>
+            <tr>
+                <td>21 décembre</td>
+                <td>Niamey</td>
+                <td>Niger</td>
+                <td>2492</td>
+            </tr>
+            <tr>
+                <td>27 décembre</td>
+                <td>Birni Nkoni</td>
+                <td>-</td>
+                <td>2513</td>
+            </tr>
+            <tr>
+                <td>1er janvier 1932</td>
+                <td>Mora</td>
+                <td>Cameroun</td>
+                <td>2575</td>
+            </tr>
+            <tr>
+                <td>12 janvier</td>
+                <td>Garoua</td>
+                <td>-</td>
+                <td>2787</td>
+            </tr>
+            <tr>
+                <td>21 février</td>
+                <td>Ebolowa</td>
+                <td>-</td>
+                <td>2792</td>
+            </tr>
+            <tr>
+                <td>1er mars</td>
+                <td>Bertoua</td>
+                <td>-</td>
+                <td>2813</td>
+            </tr>
+            <tr>
+                <td>9 mars</td>
+                <td>Bangui</td>
+                <td>Oubangui-Chari</td>
+                <td>2819</td>
+            </tr>
+            <tr>
+                <td>14 mars</td>
+                <td>Bambari</td>
+                <td>-</td>
+                <td>2830</td>
+            </tr>
+            <tr>
+                <td>15 mars</td>
+                <td>Bangassou</td>
+                <td>-</td>
+                <td>2867</td>
+            </tr>
+            <tr>
+                <td>24 mars</td>
+                <td>Bondo</td>
+                <td>Congo belge</td>
+                <td>2883</td>
+            </tr>
+            <tr>
+                <td>28 mars</td>
+                <td>Juba</td>
+                <td>Soudan Anglo-Egyptien</td>
+                <td>3034</td>
+            </tr>
+            <tr>
+                <td>20 avril</td>
+                <td>Gallabat</td>
+                <td>-</td>
+                <td>3049</td>
+            </tr>
+            <tr>
+                <td>1er juillet</td>
+                <td>Gondar</td>
+                <td>Ethiopie</td>
+                <td>3218</td>
+            </tr>
+            <tr>
+                <td>19 décembre</td>
+                <td>-</td>
+                <td>-</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>22 décembre</td>
+                <td>Agordat</td>
+                <td>Erythrée</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10 janvier 1933</td>
+                <td>Djibouti</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>17 février 1933</td>
+                <td>Djibouti</td>
+                <td>France</td>
+                <td>3600</td>
+            </tr>
+            </tbody>
+        </table>
+        <p><em>Source : <a href="http://www.berose.fr/IMG/pdf/jj_6-09web.pdf">Jean Jamin, Le cercueil de Queequeg, Mission Dakar-Djibouti, mai 1931-février 1933, Les Carnets de Bérose, 2014</a></em></p>
+    </section>
 
 ## Présentation du résultat final
 
