@@ -189,3 +189,34 @@ Nous obtenons à la fin :
     tr:nth-child(even) {
       background-color: #f2f2f2;
     }
+
+## Les objets :
+À vous d'agencer le code HTML, voici la partie CSS :
+
+    .object-article {
+        vertical-align: top;
+        max-width: 23%;
+        display: inline-block;
+
+        margin: 5px;
+
+        border: 3px solid #CCCCCC;
+        border-radius: 5px;
+    }
+
+    .object-img {
+        max-width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .object-h3, .object-p {
+        margin: 10px;
+    }
+
+    .object-p {
+      font-size: 90%;
+    }
+    
+## Les photos :
+À vous de reproduire la même structure pour les photos.
