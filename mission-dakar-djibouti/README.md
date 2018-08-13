@@ -163,7 +163,7 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
     
 ## Complétons le contenu de notre présentation :
 ### Le parcours de l'expédition :
-- Le contenu de notre tableau est divisé en 4 colonnes : la date, la ville, le pays, le nombre collecté à ce point. Ce qui nous donne : 
+- Le contenu de notre tableau est divisé en 4 colonnes : la date, la ville, le pays, le nombre d'objets collectés à ce point de la mission. Ce qui nous donne : 
 
 Date |Ville |Pays |Objets collectés
 -----|------|-----|-----------------
