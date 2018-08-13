@@ -17,8 +17,6 @@
 - Animons
 - Mettre en ligne
 
-
-
 ## Introduction
 - Qui a déjà fait de la programmation auparavant ?
     - Voir http://data.gouv.fr
@@ -28,6 +26,8 @@
 ## Parties du cours
 1. [À la découverte de HTML](decouvrir-html/README.md)
 2. [Installer un logiciel de développement](installation-ide/README.md)
-3. [Notre premier site web : La mission Dakar-Djibouti](mission-dakar-djibouti/README.md) 
+3. Notre premier site web : La mission Dakar-Djibouti
+    - [Le HTML](mission-dakar-djibouti/README.md) 
+    - [Le CSS](mission-dakar-djibouti/README-css.md) 
 4. [Réaliser son CV en HTML/CSS](curriculum-vitae/README.md)
 5. [Rendons notre site interactif avec JavaScript](javascript/README.md) 
