@@ -89,7 +89,7 @@ Puis ajoutons l'attribut `title` à notre balise `h1`:
 - Les balises que nous allons utiliser :
   - `<h2>` : [Titre de second niveau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h2), nous y plaçons notre intitulé de section : `<h2>Contexte de l'expédition</h2>` ;
   - `p` : [Paragraphe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p), nous y plaçons nos blocs de texte de description ainsi que notre source : `<p>Source : Wikipédia, consulté le 21 juillet 2018</p>` ;
-  - `em` : [Emphase](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em), le texte précisant notre source n'est pas n'importe quel texte, nous allons insister dessus : `<p><em>Source : Wikipédia, consulté le 21 juillet 2018</em></p>` ;
+  - `em` : [Emphase](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em), le texte précisant que notre source n'est pas n'importe quel texte, nous allons insister dessus : `<p><em>Source : Wikipédia, consulté le 21 juillet 2018</em></p>` ;
   - `a` : [Lien hypertexte](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a), puisque notre source est en ligne, autant en donner directement le lien : `<p><em>Source : <a href="https://fr.wikipedia.org/wiki/Mission_Dakar-Djibouti">Wikipédia, consulté le 21 juillet 2018</a></em></p>`. Vous constatez qu'on utilise l'attribut `href` pour indiquer l'URL de notre lien ;
   - `blockquote` : [Block de citation](https://developer.mozilla.org/fr/docs/Web/HTML/Element/blockquote), dans lequel nous allons placer les paragraphes de notre texte de présentation.
 
