@@ -165,7 +165,7 @@ On passe de :
         margin-right: auto;
       }
       
-- À vous de faire l'espacement en s'aidant pour la propriété `padding` des spécifications `left`, `top`, `right` et `bottom` pour obtenir une marge de 10px en haut et en bas, et de 20px sur les côtés.
+- À vous de marquer l'espacement entre les cellules en vous aidant pour la propriété `padding` des spécifications `left`, `top`, `right` et `bottom`. Vous cherchez à obtenir une marge de 10px en haut et en bas, et de 20px sur les côtés.
 
 - Enfin pour colorer une ligne sur deux :
 
