@@ -220,3 +220,8 @@ Nous obtenons à la fin :
     
 ## Les photos :
 À vous de reproduire la même structure pour les photos.
+
+## C'est la fin
+Vous avez désormais un site relativement mis en page. Le code complet [est disponible ici](https://github.com/KarlPineau/cours-codepratique-sciencespo/tree/master/mission-dakar-djibouti).
+
+**[Partie suivante](../curriculum-vitae/README.md)**
