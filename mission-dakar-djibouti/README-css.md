@@ -158,7 +158,7 @@ On passe de :
     }
 
 ## Mettre en forme notre tableau :
-- Pour obtenir un tableau centrée :
+- Pour obtenir un tableau centré :
 
       table {
         margin-left: auto;
