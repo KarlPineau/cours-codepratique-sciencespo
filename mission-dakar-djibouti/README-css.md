@@ -114,3 +114,32 @@ La taille de police s'exprime par la propriété `font-size`
 ## Les couleurs en CSS :
 - On matérialise les couleurs par un code hexadécimal : de #000000 (tout noir) à #ffffff (tout blanc)
 - Utiliser http://www.color-hex.com/ pour obtenir des codes depuis une couleur
+
+## Faire flotter un élément :
+- Créez une classe `float-right` pour notre image de l'équipe
+- Créez la règle CSS suivante :
+
+      .float-right {
+        float: right;
+      }
+      
+- Plaçons l'image avant la liste : 
+
+      <section id="membres">
+            <h2>Les membres de l'expédition</h2>
+
+            <img class="float-right" src="media/membres.jpg" alt="Les membres de l'expédition Dakar-Djibouti avant le départ" />
+            <ul>
+                <li><a href="https://fr.wikipedia.org/wiki/Andr%C3%A9_Schaeffner">André Schaeffner</a>, anthropologue, ethnomusicologue</li>
+                <li><a href="https://en.wikipedia.org/wiki/Deborah_Lifchitz">Deborah Lifchitz</a>, linguiste</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Michel_Leiris">Michel Leiris</a>, écrivain, ethnologue</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Marcel_Griaule">Marcel Griaule</a>, ethnologue</li>
+                <li><a href="https://fr.wikipedia.org/wiki/%C3%89ric_Lutten">Éric Lutten</a>, ethnologue</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Jean_Mouchet">Jean Mouchet</a>, linguiste, ethnologue</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Gaston-Louis_Roux">Gaston-Louis Roux</a>, dessinateur & peintre</li>
+                <li>Abba Jérôme Gabra Mussié, lettré éthiopien, interprête</li>
+                <li>Marcel Larget, naturaliste</li>
+                <li>Abel Faivre, géographe et naturaliste</li>
+            </ul>
+
+        </section>
