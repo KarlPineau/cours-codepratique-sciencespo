@@ -15,3 +15,10 @@
   - Copier-coller le code donné par Select this font > Embed > Standard dans le `head` de votre fichier `index.html`, par exemple `<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">`
   - Pour utiliser la police, le code est donné par Google, ici : `font-family: 'Source Sans Pro', sans-serif;`
   - Dans notre fichier `style.css` : `h1 {font-family: 'Source Sans Pro', sans-serif;}`
+
+## Appliquer une règle à plusieurs balises :
+Pour cela, il suffit de séparer les balises par une virgule devant la règle :
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
