@@ -8,13 +8,12 @@
 - Ajouter un projet à GitHub :
     - Ouvrir le terminal de votre ordinateur :
 
-
-        cd /Sites/mon-site
-        git init
-        git remote add origin [url de votre repository]
-        git add *
-        git commit -m “Mon premier commit”
-        git push -u origin master
+            cd /Sites/mon-site
+            git init
+            git remote add origin [url de votre repository]
+            git add *
+            git commit -m “Mon premier commit”
+            git push -u origin master
      
 
 - Plus d'information sur l'envoi de fichiers sur GitHub : https://guides.github.com/activities/hello-world/
