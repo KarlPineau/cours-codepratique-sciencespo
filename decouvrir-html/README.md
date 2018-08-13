@@ -5,7 +5,7 @@
 1. Ouvrir un éditeur de texte simple (textEdit sur Mac)
 2. Y écrire `Hello, World!`
 3. L'enregistrez-sous sur le bureau & l'intituler **bonjour.html**
-4. Ouvrir le fichier sur le bureau avec un navigateur (double-cliquer dessus simplement)
+4. Ouvrir le fichier depuis le bureau avec un navigateur (double-cliquer dessus simplement)
 5. Voici votre premier site web :)
 
 #### Ce mini-site est-il en ligne ?
@@ -38,14 +38,15 @@ Le titre de premier niveau est le titre principale d'un document ;
 - Le texte à l'intérieur de la balise indique le type de la balise : `<h1>` est une balise `h1`, `<p>` est une balise `p`
 - La balise **fermante** possède un slash **/** juste après le chevron ouvrant ;
 - Les **balises fonctionnent toujours par couple** (ou presque, on verra ça plus loin). Vous ne pouvez pas écrire une 
-balise `<h1>` et ne pas écrire sa balise `</h1>` ensuite
+balise `<h1>` et ne pas écrire sa balise `</h1>` ensuite :
     - Faisons le test : **supprimez la balise `</h1>`** de votre fichier **bonjour.html** ;
     - Sauvegardez votre fichier, retournez sur votre navigateur et raffraichissez votre page ;
-    - Le navigateur doit interpréter tout votre texte comme étant le titre.
+    - Le navigateur doit interpréter tout votre texte comme étant le titre ;
     - Sur certains navigateur (comme Firefox), si vous faites un clic droit sur votre page puis "Afficher le code source",
-    le navigateur vous affiche en rouge les balises non correctes.
+    le navigateur vous affiche en rouge les balises non correctes ;
     - Remettons notre balise `</h1>` en place.
-- Il est **très important** de comprendre que; si votre navigateur a modifié le style (l'apparence visuelle) de votre titre
+- Vous **ne pouvez pas non plus entremêler les balises**. Ainsi `<p><a></a></p>` est valide car la balise `p` contient la balise `a`. Par contre, `<p><a></p></a>` n'est pas valide car la notion d'arborescence n'est pas respectée ;
+- Il est **très important** de comprendre que si votre navigateur a modifié le style (l'apparence visuelle) de votre titre
 lorsque vous lui avez indiqué qu'il s'agissait d'un titre, **vous ne lui avez pour autant indiqué aucune consigne d'ordre visuel**.
 L'action de pose de la balise `<h1>` est une action **sémantique**. Vous avez donné du sens à votre texte. Votre navigateur 
 en a déduit seul une apparence visuelle. 
