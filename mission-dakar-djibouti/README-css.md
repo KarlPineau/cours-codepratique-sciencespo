@@ -78,15 +78,39 @@ La taille de police s'exprime par la propriété `font-size`
               </ul>
           </nav>
       </header>
+
 ## Les classes :
 - Appliquons la classe à notre `div` :
 
       <div class="center">
           <h1>La mission Dakar-Djibouti</h1>
           
-- Puis, dans notre fichier `style.css` (en remplacement de `header {text-align : center};`:
+- Puis, dans notre fichier `style.css` (en remplacement de `header {text-align : center};`):
 
       .center {
         text-align: center;
       }
 
+## Appliquer une bordure à notre citation :
+- Pour obtenir une bordure de 10px d'épaisseur, en trait plein, de couleur grise :
+  
+      blockquote {
+        border: 10px solid #CCCCCC;
+      }
+      
+- Pour n'afficher la bordure que sur le côté gauche, modifions `border` en `border-left` :
+
+      blockquote {
+        border-left: 10px solid #CCCCCC;
+      }    
+      
+- Enfin, pour que la bordure ne soit pas collée au texte, utilisons la propriété espacement interne, `padding` :
+
+      blockquote {
+        border-left: 10px solid #CCCCCC;
+        padding: 10px;
+      }
+      
+## Les couleurs en CSS :
+- On matérialise les couleurs par un code hexadécimal : de #000000 (tout noir) à #ffffff (tout blanc)
+- Utiliser http://www.color-hex.com/ pour obtenir des codes depuis une couleur
