@@ -156,3 +156,36 @@ On passe de :
     img {
       max-width: 40%;
     }
+
+## Mettre en forme notre tableau :
+- Pour obtenir un tableau centrée :
+
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+- À vous de faire l'espacement en s'aidant pour la propriété `padding` des spécifications `left`, `top`, `right` et `bottom` pour obtenir une marge de 10px en haut et en bas, et de 20px sur les côtés.
+
+- Enfin pour colorer une ligne sur deux :
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      
+Nous obtenons à la fin :
+    
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    th {
+        background-color: #444444;
+        color: white;
+    }
+    th, td {
+        padding: 10px 20px;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
