@@ -4,19 +4,6 @@
 >- Contact : karl.pineau@utc.fr
 >- [Lien vers le support de cours](https://docs.google.com/presentation/d/1SVQ7zql2u469aRAfsDW0KsicFvQSLBLYasaZatij00A/edit?usp=sharing)
 
-## Plan du cours :
-### Créons notre site web
-- Choix d'un thème de découverte :
-    - La mission Dakar - Djibouti (culture, ethnographie)
-    - Un sujet de politique internationale
-    - Un sujet de sport ?
-- Premières balises HTML
-- Contenu de la page
-- Structure de la page
-- Mettons en forme
-- Animons
-- Mettre en ligne
-
 ## Introduction
 - Qui a déjà fait de la programmation auparavant ?
     - Voir http://data.gouv.fr
