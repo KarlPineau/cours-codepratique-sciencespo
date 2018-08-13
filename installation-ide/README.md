@@ -1,6 +1,6 @@
 **[Cours de Code Pratique](../README.md) | [Partie précédente](../decouvrir-html/README.md)**
 
-# Installons logiciel pour programmer :
+# Installons un logiciel pour programmer :
 - Les *IDE* (*Environnement de développement intégré*) :
     - Eclipse : https://www.eclipse.org/
     - NetBeans : https://netbeans.org/
