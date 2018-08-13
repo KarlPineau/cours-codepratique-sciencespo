@@ -40,7 +40,7 @@
             })
         </script>
         
-- Sauvegardez & admirer le résultat
+- Sauvegardez & admirez le résultat
         
 ## Partons à la découverte des APIs:
 - Pour obtenir la météo de Paris | [API OpenWeatherMap](http://openweathermap.org) : `http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&APPID=6586e6c52e104e0929ebeeb07d5f2c55&units=metric` (attention, sur cette URL, le nombre de requêtes est limité à 60 par minute. Ne pas trop cliquer)
