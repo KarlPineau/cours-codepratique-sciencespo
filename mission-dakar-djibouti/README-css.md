@@ -143,3 +143,16 @@ La taille de police s'exprime par la propriété `font-size`
             </ul>
 
         </section>
+
+## Rendre la taille des images relatives :
+On passe de :
+
+    img {
+      max-width: 300px;
+    }
+    
+À :
+
+    img {
+      max-width: 40%;
+    }
