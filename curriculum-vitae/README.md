@@ -1,4 +1,4 @@
-**[Cours de Code Pratique](../README.md) | [Partie précédente](../installation-ide/README.md)**
+**[Cours de Code Pratique](../README.md) | [Partie précédente](../mission-dakar-djibouti/README-css.md)**
 
 # Réaliser son curriculum vitae en HTML/CSS
 
