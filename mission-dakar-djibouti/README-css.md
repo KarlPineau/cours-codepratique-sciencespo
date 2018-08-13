@@ -10,7 +10,7 @@
 
 ## Installer une police d'écriture :
 - Liste des polices installées par défaut : https://www.w3schools.com/cssref/css_websafe_fonts.asp
-- Polices proposées par Google : https://fonts.google.com/, nous allons utilise **Source Sans Pro** pour nos titre
+- Polices proposées par Google : https://fonts.google.com/, nous allons utilise **Source Sans Pro** pour nos titres
 - Intégrer une police de Google sur votre site : 
   - Copier-coller le code donné par Select this font > Embed > Standard dans le `head` de votre fichier `index.html`, par exemple `<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">`
   - Pour utiliser la police, le code est donné par Google, ici : `font-family: 'Source Sans Pro', sans-serif;`
