@@ -18,3 +18,4 @@
     - [Le CSS](mission-dakar-djibouti/README-css.md) 
 4. [Réaliser son CV en HTML/CSS](curriculum-vitae/README.md)
 5. [Rendons notre site interactif avec JavaScript](javascript/README.md) 
+6. [Sauvegarder et mettre notre site en ligne](sauvegarder-mettre-en-ligne/README.md)
