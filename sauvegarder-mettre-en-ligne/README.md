@@ -2,7 +2,7 @@
 
 # Sauvegarde, collaboration, mise en ligne :
 
-## Sauvegarder su GitHub :
+## Sauvegarder sur GitHub :
 - GitHub (le site sur lequel vous vous trouvez en ce moment) : https://github.com
 - Git (le logiciel pour faire fonctionner Github) : https://git-scm.com/
 - Ajouter un projet à GitHub :
