@@ -1,7 +1,7 @@
 # [Code Pratique] - Sciences Po'
 
 >- Enseignant : Karl Pineau
->- Contact : karl.pineau@utc.fr
+>- Contact : karl.pineau@sciencespo.fr
 >- [Lien vers le support de cours](https://docs.google.com/presentation/d/1SVQ7zql2u469aRAfsDW0KsicFvQSLBLYasaZatij00A/edit?usp=sharing)
 
 ## Introduction
