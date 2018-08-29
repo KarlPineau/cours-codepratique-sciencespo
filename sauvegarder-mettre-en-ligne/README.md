@@ -20,5 +20,16 @@
 
 
 ## Mettre en ligne un site :
-- Gist : https://gist.github.com/
+- Pages : https://pages.github.com/
 - OVH : https://www.ovh.com/fr/
+
+## Essayons de mettre en ligne notre site :
+- Pour mettre en ligne votre site web, il faut utiliser un logiciel de FTP : https://filezilla-project.org/
+- Une fois que vous l'avez lancé, il y a une barre de connexion rapide en haut, dans laquelle il faut remplir les valeurs suivantes :
+    - Hôte : ftp.karl-pineau.fr 
+    - Identifiant : karlpine-sciencespo
+    - Mot de passe : SciencesPo2018
+- Créez dans la zone de droite un dossier à votre nom, en utilisant des tirets pour remplacer les espaces ;
+- Naviguez dans la zone de gauche à l’endroit de votre ordinateur où se trouve votre CV en site web ;
+- Sélectionnez les fichiers de votre site sur votre ordinateur, cliquez droit et choisissez “Envoyer” ;
+- Allez à l’adresse : http://sciencespo.karl-pineau.fr/votre-nom ;
