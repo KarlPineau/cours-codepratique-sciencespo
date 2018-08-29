@@ -85,7 +85,7 @@ La taille de police s'exprime par la propriété `font-size`
       <div class="center">
           <h1>La mission Dakar-Djibouti</h1>
           
-- Puis, dans notre fichier `style.css` (en remplacement de `header {text-align : center};`):
+- Puis, dans notre fichier `style.css` :
 
       .center {
         text-align: center;
