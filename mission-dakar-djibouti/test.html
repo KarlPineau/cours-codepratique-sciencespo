@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Title</title>
+ </head>
+ <body>
+
+   <div id="app">
+     <form method="get" action="#">
+         <label for="city">Pour quelle ville souhaitez-vous la météo ?</label>
+         <input id="city" v-model="city">
+         <button @click="getContent(city)">Retrieve</button>
+      </form>
+      <div v-if="weather !== null">
+          <h2>Voici la météo de {{ weather['name'] }}</h2>
+
+          <dl>
+              <dt>Temps</dt>
+              <dd>{{ weather['weather'][0]['description'] }} <img v-bind:src="getIcon()" /></dd>
+          </dl>
+          <dl>
+              <dt>Température</dt>
+              <dd>{{ weather['main']['temp'] }}°C</dd>
+          </dl>
+          <dl>
+              <dt>Vitesse du vent</dt>
+              <dd>{{ weather['wind']['speed'] }} km/h</dd>
+          </dl>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script>
+       var app = new Vue({
+           el: '#app',
+           data: {
+               city: '',
+               weather: null
+           },
+           methods: {
+               getContent: function(city) {
+                   return axios.get("http://api.openweathermap.org/data/2.5/weather?q="+city+"&APPID=6586e6c52e104e0929ebeeb07d5f2c55&units=metric")
+                       .then(response => {this.weather = response.data;})
+               },
+               getIcon: function() {
+                  return 'http://openweathermap.org/img/w/'+this.weather['weather'][0]['icon']+'.png';
+              }
+           }
+        });
+   </script>
+ </body>
+ </html>
