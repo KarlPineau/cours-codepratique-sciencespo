@@ -122,6 +122,13 @@ Et afin de gérer notre icone de temps, nous allons ajouter la méthode suivante
             return 'http://openweathermap.org/img/w/'+this.weather['weather'][0]['icon']+'.png';
         }
         
+Puis, modifions la section `data` pour passer la valeur `weather` à `null`:
+
+        data: {
+                city: '',
+                weather: null
+        },
+        
 ## Obtenir de l'aide avec JavaScript :
 - Mozilla MDN | site de référence pour les normes du web : https://developer.mozilla.org/fr-FR/docs/Web/JavaScript
 - W3School | site de tutoriel pour apprendre à programmer : https://www.w3schools.com/jS/default.asp
