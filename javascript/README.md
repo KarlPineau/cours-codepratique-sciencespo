@@ -45,7 +45,7 @@
 ## Partons à la découverte des APIs:
 - Pour obtenir la météo de Paris | [API OpenWeatherMap](http://openweathermap.org) : `http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&APPID=6586e6c52e104e0929ebeeb07d5f2c55&units=metric` (attention, sur cette URL, le nombre de requêtes est limité à 60 par minute. Ne pas trop cliquer)
 - Pour obtenir une carte de Paris | [API Google Maps](https://www.google.com/maps/) : `https://www.google.com/maps/search/?api=1&query=Paris`
-- Pour obtenir des informations sur Paris | [API Geonames](http://geonames.org) : `http://api.geonames.org/getJSON?formatted=true&geonameId=2988507&lang=fr&username=demo&style=full`
+- Pour obtenir des informations sur Paris | [API Geonames](http://geonames.org) : `http://api.geonames.org/getJSON?formatted=true&geonameId=2988507&lang=fr&username=karlpineauutc&style=full`
 
 
 ## Une application pour la météo
