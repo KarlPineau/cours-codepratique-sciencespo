@@ -7,7 +7,7 @@
 - Sur FileZilla, créer un nouveau dossier
 - Appeler le dossier `wordpress-mon-nom`
 - Y copier le contenu du fichier téléchargé après l’avoir dézippé
-- Se rendre sur `https://sciencespo.karl-pineau.fr/wordpress-mon-nom`
+- Se rendre sur `http://sciencespo.karl-pineau.fr/wordpress-mon-nom`
 
 ## Configurer WordPress
 - Nom de la base de données : donnesculturelles-db
