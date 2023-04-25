@@ -18,26 +18,20 @@
 - Supprimez ce qui pré-existe comme texte dans la page ;
 - Inscrivez :
 
-      <!DOCTYPE html>
+       <!DOCTYPE html>
       <html>
-      
-      </html>
-      
-- À l'intérieur de `<html></html>`, plaçons nos balises `<head></head>` et `<body></body>` :
-
       <head>
-      
+        <title>Découvrez la mission Dakar-Djibouti</title>
+        <meta charset="utf-8">
       </head>
       <body>
-          Découvrez la mission Dakar-Djibouti
+
+        Découvrez la mission Dakar-Djibouti
+
       </body>
-
-## Remplissions notre `<head>`
-À l'intérieur de `<head></head>`, plaçons une balise `<title>` pour donner un titre à notre page et une balise `<meta>` pour indiquer un encodage à appliquer :
-
-      <title>Découvrez la mission Dakar-Djibouti</title>
-      <meta charset="utf-8">
+      </html> 
       
+
 ## Utiliser les attributs
 À l'intérieur de notre `body`, plaçons notre titre dans une balise de premier niveau :
 
